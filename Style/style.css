@@ -1,0 +1,166 @@
+body
+{
+    margin: 0;
+   
+}
+.navbar-right
+{
+    display:flex;/* içindekileri yan yana sıralar */
+    justify-content:end; /* içindekileri sona atar */
+    gap: 20px; /* aralarında boşluk bırakır */
+    margin-top: 15px; 
+    margin-right: 15px;
+    max-height: 32px;
+    align-items: center; /* içindeki elementleri center */
+    /* justify yatay hizalar - align ise dikey hizalar */
+    
+    font-family:Arial,  sans-serif;
+    font-size: 13px;
+    
+}
+.navbar-right>div>img
+{
+    object-fit: contain; /* resmi ayarlama */
+
+    /* 
+    fill: İçeriği boyutlandırırken oranları korumaz ve tamamen öğenin içine sığacak şekilde genişletir veya daraltır.
+
+    contain: İçeriği oranları koruyarak öğenin içine sığacak şekilde genişletir veya daraltır.
+
+    cover: İçeriği oranları koruyarak öğenin içini tamamen dolduracak şekilde genişletir veya daraltır. İçerik, öğenin tamamını kaplamayabilir ve taşabilir.
+
+    none: İçeriği boyutlandırmaz, orijinal boyutunu korur. Eğer içerik öğeden büyükse, taşma meydana gelir.
+
+    scale-down: contain ve none arasında seçim yapar. İçeriği boyutlandırır ancak contain değerinden daha küçük veya orijinal boyuttan daha küçükse orijinal boyutunu korur.
+    */
+
+}
+@media only screen and (max-width:700px)
+{
+    .navbar-right{
+        gap: 10px;
+    }
+}
+a
+{
+    color:black ;
+    text-decoration: none;
+}
+.mainimage
+{
+  
+    height: 290px;
+    text-align: center;
+    
+}
+
+
+.mainimage>img
+{
+    /* POSİTİON ABSOLUTE ANLAMADIM */
+    position: relative;
+    top: 200px;
+   
+}
+.search-Container
+{
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px
+    
+    
+}
+.search-big
+{
+  
+   text-align: center; 
+   height: 142px;
+}
+.search-input
+{
+    background-color: white;
+    width: 400px;
+    height: 40px;
+    border-radius: 50px;
+    /* borde and padding ile çerçeve inceltildi */
+    border: 1px solid #ccc; 
+    padding: 10px;
+    margin-top: 20px;
+}
+.fa-solid
+{
+    position: fixed;
+    position: relative;
+    left: 35px;
+    bottom: 15px;
+    color: #9aa0a6;
+}
+.divthree
+{
+
+    display:flex;/* içindekileri yan yana sıralar */
+    justify-content:center; /* içindekileri sona atar */
+    /* aralarında boşluk bırakır */
+    margin-top: 20px; 
+    align-items: center; 
+    font-family: Arial, sans-serif;
+    background-color: white;    
+}
+.footerpanelone
+{
+background-color: #f8f9fa;
+height: 50px;
+position: relative;
+bottom: 15px;
+margin: 0;
+top: 50px;
+
+
+
+}
+.footerpaneltwo
+{
+   
+    background-color: #f8f9fa;
+    height: 50px;
+    margin: 0;
+    margin-top:-16px;
+    position: relative;
+    top: 50px;
+    
+ 
+}
+p
+{
+    margin: 0;
+  
+}
+.footerend
+{
+    position: relative;
+    top: 15px;
+    
+}
+.asd
+{
+    display:flex;/* içindekileri yan yana sıralar */
+    justify-content:end; /* içindekileri sona atar */
+    gap: 20px; /* aralarında boşluk bırakır */
+    margin-top: -20px;
+    margin-right: 50px; 
+
+}
+.position
+{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
+.trflex
+{
+    display: flex;
+    justify-content: start;
+   
+   
+}
